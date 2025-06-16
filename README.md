@@ -16,7 +16,7 @@
 ## 项目简介
 
 本项目实现了一个简化版的 CLIP 模型，结合了 Vision Transformer (ViT) 和 Transformer 文本编码器，支持图像与文本的对比学习。使用 CIFAR-10 数据集进行训练和测试，支持 accelerate + DeepSpeed 多卡加速和混合精度。  
-This project implements a simplified version of the CLIP model, combining a Vision Transformer (ViT) and a Transformer-based text encoder to support image-text contrastive learning. It is trained and tested on the CIFAR-10 dataset and supports multi-GPU acceleration as well as mixed precision.
+This project implements a simplified version of the CLIP model that combines a Vision Transformer (ViT) with a Transformer text encoder to support contrastive learning between images and text. It is trained and evaluated using the CIFAR-10 dataset, with support for multi-GPU acceleration and mixed precision through accelerate and DeepSpeed.
 
 ---
 
