@@ -78,6 +78,21 @@ python evaluate.py
 
 训练过程自动保存模型检查点至 checkpoints/
 
-评估时加载最后一轮模型权重（默认clip_epoch_10.pt）
+评估时加载最后一轮模型权重（默认clip_epoch_10.pt）  
+
+
+Notes:
+
+Training uses CIFAR-10 images and their corresponding class name text pairs for contrastive learning.
+
+The text tokenizer is based on the Huggingface BERT Tokenizer.
+
+The image encoder is based on the torchvision ViT-Base model (without pre-training).
+
+Model checkpoints are automatically saved to the checkpoints/ directory during training.
+
+During evaluation, the final model weights (default: clip_epoch_10.pt) are loaded.
+
+Feedback and discussions are warmly welcome!
 
 欢迎反馈和讨论！
