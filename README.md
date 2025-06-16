@@ -22,6 +22,7 @@ MyCLIP/
 ├── utils/ # 工具函数
 │ ├── tokenizer_utils.py
 │ └── loss_utils.py
+├── accelerate_config.yaml #配置文件
 ├── train.py # 训练脚本
 ├── evaluate.py # 测试脚本
 ├── requirements.txt # 环境依赖
@@ -42,7 +43,7 @@ pip install -r requirements.txt
 ```bash
 accelerate launch train.py
 ```
-如果需要 DeepSpeed 支持，请先配置 DeepSpeed 配置文件，并用如下命令：
+如果需要 DeepSpeed 支持，请先配置 DeepSpeed 配置文件，并用如下命令(默认配置文件 accelerate_config.yaml 中的配置为1个机器，2张卡)：
 
 ```bash
 accelerate launch --config_file ./configs/deepspeed_config.yaml train.py
