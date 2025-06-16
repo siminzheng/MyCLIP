@@ -57,7 +57,7 @@ pip install -r requirements.txt
 ```bash
 accelerate launch train.py
 ```
-如果需要 DeepSpeed 支持，请先配置 DeepSpeed 配置文件，并用如下命令(默认配置文件 accelerate_config.yaml 中的配置为1个机器，2张卡)：
+如果需要 DeepSpeed 支持，请先配置 DeepSpeed 配置文件，并用如下命令(配置文件 accelerate_config.yaml 中的配置为1个机器，2张卡，默认使用DeepSpeed加速)：
 
 ```bash
 accelerate launch --config_file ./configs/deepspeed_config.yaml train.py
