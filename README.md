@@ -80,6 +80,8 @@ python evaluate.py
 
 评估时加载最后一轮模型权重（默认clip_epoch_10.pt）  
 
+欢迎反馈和讨论！  
+
 
 Notes:
 
@@ -95,4 +97,4 @@ During evaluation, the final model weights (default: clip_epoch_10.pt) are loade
 
 Feedback and discussions are warmly welcome!
 
-欢迎反馈和讨论！
+
