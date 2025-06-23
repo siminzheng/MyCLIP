@@ -26,7 +26,7 @@ This project implements a simplified version of the CLIP model that combines a V
 
 MyCLIP/
 ├── ViT/ # ViT目录
-│ └── MyViT.py #从零开始实现的一个ViT
+│ └── MyViT.py #从零开始实现的一个ViT, 后期更新会将它作为MyClip中的自建ViT模型，以替换现有的ViT模型
 ├── checkpoints/ # 训练模型保存目录
 ├── encoders/ # 编码器模块
 │ ├── vision_encoder.py
